@@ -1,0 +1,6 @@
+bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
+bcdedit.exe -set TESTSIGNING ON
+
+드라이버 서명 적용시 DDISABLE_INTEGRITY_CHECKS
+									  ENABLE_INTEGRITY_CHECKS로 교체
+										ON을 OFF로 교체

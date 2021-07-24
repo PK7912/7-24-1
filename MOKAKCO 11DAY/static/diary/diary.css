@@ -1,0 +1,156 @@
+/*스크롤바*/
+.diary-container {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+.contents-box:-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+}
+.container::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
+}
+
+.content-box {
+  position: relative;
+}
+
+.calender {
+  margin: 0 0 0 10px;
+  border: 1px #cdcdcd solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px 5px 15px;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.today {
+  flex: 0.1;
+  text-align: center;
+  color: #adadad;
+  padding-top: 5px;
+}
+
+.today > span {
+  font-size: 15pt;
+  font-weight: bold;
+  color: chocolate;
+}
+
+.date-list {
+  flex: 1;
+  line-height: 20px;
+  color: #adadad;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0 5px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.diary-container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 0 10px 10px 10px;
+}
+
+.contents-box {
+  flex: none;
+  line-height: 22px;
+  margin-bottom: 20px;
+  border: 1px #cdcdcd solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.date-list > div > .sat {
+  color: blue;
+}
+
+.date-list > div > .sun {
+  color: red;
+}
+
+.open {
+  color: #adadad;
+  border-top: 1px #eeeeee dashed;
+  border-bottom: 1px #eeeeee solid;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.diary_contents {
+  font-size: 14px;
+  background-color: #eeeeee;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.box {
+  width: 91%;
+  line-height: 20px;
+  background-color: white;
+  margin-left: 5px;
+  border: 1px #cdcdcd solid;
+}
+
+.diary-main {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin: 20px;
+}
+
+.button > button {
+  width: 40%;
+  padding: 16px;
+  color: white;
+  background-color: white;
+  border: 0px;
+  font-family: "BinggraeSamanco";
+  transition: 500ms ease all;
+}
+
+.button > button:hover {
+  color: white;
+  background-color: #adadad;
+  transition: 500ms ease all;
+  border-radius: 4px;
+}
+
+/*메뉴*/
+.menu-container > a {
+  flex: 0;
+  text-decoration: none;
+  border: 1px solid #cdcdcd;
+  border-left: none;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #3395b0;
+  color: white;
+  align-items: center;
+  border-radius: 0 9px 9px 0;
+  text-align: center;
+}
+
+.menu-container > a:hover {
+  background-color: #28778c;
+  border-left: white;
+}

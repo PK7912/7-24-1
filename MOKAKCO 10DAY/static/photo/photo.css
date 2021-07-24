@@ -1,0 +1,35 @@
+.pbook {
+  flex: 1;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+.album {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: "NanumSquareRound";
+}
+.photo_title {
+  color: whitesmoke;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
+  padding: 5px 10px;
+  background-color: steelblue;
+  border-radius: 5px 5px 5px 5px;
+  margin: 0 0 5px 7px;
+}
+
+.photo > .photo_page {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.photo_text {
+  font-family: "BinggraeSamanco";
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
