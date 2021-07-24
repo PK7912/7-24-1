@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "CookieRun-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BinggraeSamanco-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/BinggraeSamanco-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "CookieRun-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff")
+    format("woff");
+  color: blue;
+}
+
+p {
+  font-family: "Jua", sans-serif;
+}
+
+a {
+  color: rgb(19, 131, 4);
+}
+
+h2 {
+  font-family: "BinggraeSamanco-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/BinggraeSamanco-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+span {
+  color: rgb(4, 91, 131);
+}
+
+img {
+  position: absolute;
+  right: 50px;
+  top: 240px;
+  margin: auto;
+  background-color: hsl(0, 0%, 90%);
+  transition: background-color 300ms;
+}
